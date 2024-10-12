@@ -49,5 +49,8 @@ public class ListaTarefa {
     // System.out.println("O numero total de elementos é: " + listaTarefa.obterNumeroTotalTarefas());
 
     listaTarefa.obterDescricoesTarefas();
+    listaTarefa.removerTarefa("Tarefa 2");
+
+    listaTarefa.obterDescricoesTarefas();
   }
 }
